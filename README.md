@@ -1,15 +1,12 @@
 **README.md**
 
 **Ethnic Group Identification from Text Classification Using Deep Learning**
-
 This project explores the use of deep learning techniques, specifically Bi-LSTM, LSTM, and CNN models, for identifying ethnic groups based on textual data.
 
 **Dataset:**
-
 The dataset consists of text samples from various ethnic groups. It is pre-processed to remove stop words, punctuation, and other irrelevant information.
 
 **Model Architectures:**
-
 1. **Bi-Directional LSTM (Bi-LSTM):**
    - Utilizes bidirectional LSTM layers to capture long-range dependencies in both directions.
    - Employs embedding layers to represent words as vectors.
@@ -32,18 +29,15 @@ The dataset consists of text samples from various ethnic groups. It is pre-proce
 - ROC curves are plotted to visualize the performance of the models.
 
 **Results:**
-
 The Bi-LSTM model generally outperforms the LSTM and CNN models in terms of accuracy and other evaluation metrics. However, the specific performance may vary depending on the dataset and hyperparameter tuning.
 
 **Future Work:**
-
 - Experiment with different hyperparameter settings to optimize model performance.
 - Explore other deep learning architectures, such as transformers.
 - Incorporate attention mechanisms to focus on the most relevant parts of the text.
 - Utilize advanced text preprocessing techniques like word embeddings and character-level embeddings.
 
 **Requirements:**
-
 - Python
 - TensorFlow/Keras
 - NumPy
@@ -53,8 +47,3 @@ The Bi-LSTM model generally outperforms the LSTM and CNN models in terms of accu
 - Matplotlib
 - Seaborn
 
-**To run the code:**
-
-1. Clone this repository.
-2. Install the required libraries using `pip install -r requirements.txt`.
-3. Run each Python script to train and evaluate the respective models.
